@@ -46,24 +46,31 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }/* custom styles */
-.green{
-	background-color: rgb(129, 152, 172);
-}
-h2{
-	font-size: 35px;
-}
-h3{
-	font-size: 30px;
-}
+
+/* General */
+
 h1{
 	font-size: 65px;
+}
+h2{
+	font-size: 45px;
+	margin: 16px 0px;
+}
+h3{
+	font-size: 36px;
+	margin: 16px 0px;
 }
 p{
 	font-size: 20px;
 }
+
 .atom{
 	font-size: 25px;
+	margin: 24px 0px;
+}
 
+.ind{
+	background-color: darkgray;
 }
 .black{
 	background-color: blanchedalmond;
@@ -71,6 +78,6 @@ p{
 .red{
 	background-color: cornsilk;
 }
-.ind{
-	background-color: darkgray;
+.green{
+	background-color: rgb(129, 152, 172);
 }
