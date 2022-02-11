@@ -1,0 +1,95 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+/* General */
+.container{
+    width: 650px;
+    margin: 0px auto;
+}
+a{
+    text-decoration: none; 
+    display: inline-block;
+}
+/* Header */
+header nav{
+    text-align: center;
+    background-color: #C786C7;
+    padding: 16px;
+}  
+nav a{
+    margin: 0px 24px;
+}
+img{
+    width: 100%;
+}
+ 
+time{
+    margin: 16px 0px;
+    display: inline-block;
+    color: #7A80F5;
+}
+/* article */
+
+h1,h2{
+    font-size: 36px;
+    margin: 24px 0px;
+}
+article a{
+    margin: 12px 0px;
+    color: #7A80F5;
+}
+p{
+    margin: 12px 0px;
+}
+/* Footer */
+footer{
+    text-align: center;
+    background-color: #9090E7;
+    padding: 16px 0px;
+}
